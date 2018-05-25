@@ -500,7 +500,7 @@
 <gate name="G$1" symbol="N-MOSFET-LEFT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TO-264P-H">
+<device name="N" package="TO-264P-H">
 <connects>
 <connect gate="G$1" pin="D" pad="2 TAB"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -510,7 +510,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="PADUP" package="TO-264P-H-PADUP">
+<device name="R+" package="TO-264P-H-PADUP">
 <connects>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="3"/>
@@ -520,7 +520,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="PADUP-" package="TO-264P-H-PADUP-">
+<device name="R-" package="TO-264P-H-PADUP-">
 <connects>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="3"/>
