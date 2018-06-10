@@ -549,6 +549,18 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="IXTK102N65X2-NOPCB" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="N-MOSFET-LEFT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
