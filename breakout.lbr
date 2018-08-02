@@ -6,8 +6,6 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
-=======
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
@@ -184,7 +182,6 @@
 <wire x1="26.5" y1="-1.27" x2="30.5" y2="-1.27" width="0.6" layer="21"/>
 <wire x1="26.5" y1="-3.81" x2="30.5" y2="-3.81" width="0.6" layer="21"/>
 </package>
-=======
 <package name="D-DUINO-32_V3">
 <wire x1="14" y1="26.5" x2="14" y2="-26.5" width="0.127" layer="21"/>
 <wire x1="11.5" y1="-29" x2="-11.5" y2="-29" width="0.127" layer="21"/>
@@ -337,7 +334,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="D-DUINO-32_V3">
+<deviceset name="D-DUINO-32_V3" prefix="U">
 <gates>
 <gate name="G$1" symbol="D-DUINO-32_V3" x="0" y="0"/>
 </gates>
