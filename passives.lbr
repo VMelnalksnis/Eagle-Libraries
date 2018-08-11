@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -331,6 +331,42 @@ wave soldering</description>
 <text x="0" y="5.5" size="1" layer="25" font="vector" ratio="15" align="bottom-center">&gt;Name</text>
 <text x="0" y="0" size="1" layer="27" font="vector" ratio="15" rot="R90" align="center">&gt;Value</text>
 </package>
+<package name="C_P5D10H16_HORF">
+<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.5" first="yes"/>
+<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.5"/>
+<wire x1="-4.5" y1="3" x2="4.5" y2="3" width="0.05" layer="51"/>
+<wire x1="5" y1="3.5" x2="5" y2="5" width="0.05" layer="51"/>
+<wire x1="5" y1="7" x2="5" y2="18.5" width="0.05" layer="51"/>
+<wire x1="4.5" y1="19" x2="-4.5" y2="19" width="0.05" layer="51"/>
+<wire x1="-5" y1="18.5" x2="-5" y2="7" width="0.05" layer="51"/>
+<wire x1="-5" y1="5" x2="-5" y2="3.5" width="0.05" layer="51"/>
+<wire x1="-6" y1="3" x2="-6" y2="19" width="0" layer="20"/>
+<wire x1="-6" y1="19" x2="-5" y2="20" width="0" layer="20" curve="-90"/>
+<wire x1="-5" y1="20" x2="5" y2="20" width="0" layer="20"/>
+<wire x1="5" y1="20" x2="6" y2="19" width="0" layer="20" curve="-90"/>
+<wire x1="6" y1="19" x2="6" y2="3" width="0" layer="20"/>
+<wire x1="6" y1="3" x2="5" y2="2" width="0" layer="20" curve="-90"/>
+<wire x1="5" y1="2" x2="-5" y2="2" width="0" layer="20"/>
+<wire x1="-5" y1="2" x2="-6" y2="3" width="0" layer="20" curve="-90"/>
+<wire x1="-5" y1="7" x2="-5" y2="5" width="0.05" layer="51" curve="-180"/>
+<wire x1="5" y1="5" x2="5" y2="7" width="0.05" layer="51" curve="-180"/>
+<wire x1="-5" y1="18.5" x2="-4.5" y2="19" width="0.05" layer="51" curve="-90"/>
+<wire x1="4.5" y1="19" x2="5" y2="18.5" width="0.05" layer="51" curve="-90"/>
+<wire x1="-4.5" y1="3" x2="-5" y2="3.5" width="0.05" layer="51" curve="-90"/>
+<wire x1="5" y1="3.5" x2="4.5" y2="3" width="0.05" layer="51" curve="-90"/>
+<polygon width="0.05" layer="51">
+<vertex x="-2.8" y="3"/>
+<vertex x="-2.8" y="0" curve="180"/>
+<vertex x="-2.2" y="0"/>
+<vertex x="-2.2" y="3"/>
+</polygon>
+<polygon width="0.05" layer="51">
+<vertex x="2.2" y="3"/>
+<vertex x="2.2" y="0" curve="180"/>
+<vertex x="2.8" y="0"/>
+<vertex x="2.8" y="3"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="R-EU">
@@ -513,6 +549,15 @@ wave soldering</description>
 </technologies>
 </device>
 <device name="-7343-DE" package="CT7343">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_RAD_P5D10H16_HORF" package="C_P5D10H16_HORF">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
