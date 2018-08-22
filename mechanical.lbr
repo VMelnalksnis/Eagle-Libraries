@@ -830,7 +830,7 @@ ISO 7089 flat washer</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FAN_MOLEX">
+<deviceset name="FAN_MOLEX" prefix="J">
 <gates>
 <gate name="G$1" symbol="PINHD4" x="0" y="0"/>
 </gates>
